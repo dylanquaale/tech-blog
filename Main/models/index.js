@@ -2,6 +2,8 @@ const Post = require('./Post');
 const User = require('./User');
 const Comment = require('./Comment');
 
+// Index model created
+
 // 11-Ins_Partials models
 // 18-Stu_Session
 
