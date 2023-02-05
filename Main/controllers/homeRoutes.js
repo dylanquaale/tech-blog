@@ -5,7 +5,12 @@ const router = require('express').Router();
 //23-Ins_Auth Controllers where I took this from
 router.get('/', async (req, res) => {
     res.render('homepage');
+
        });
+
+       router.get('/signup', (req, res) => {
+        res.render('signup');
+      });
    
    
        //login page
