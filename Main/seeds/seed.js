@@ -23,11 +23,38 @@
 
 // seedDatabase();
 
+// const sequelize = require('../config/connection');
+// const { User, Dashboard } = require('../models');
+
+// const userData = require('./userData.json');
+// const dashboardData = require('./dashboardData.json');
+
+// const seedDatabase = async () => {
+//   await sequelize.sync({ force: true });
+
+//   const users = await User.bulkCreate(userData, {
+//     individualHooks: true,
+//     returning: true,
+//   });
+
+//   for (const dashboard of dashboardData) {
+//     await Dashboard.create({
+//       ...dashboard,
+//       user_id: users[Math.floor(Math.random() * users.length)].id,
+//     });
+//   }
+
+//   process.exit(0);
+// };
+
+// seedDatabase();
+
+
 const sequelize = require('../config/connection');
-const { User, Dashboard } = require('../models');
+const { User, Project } = require('../models');
 
 const userData = require('./userData.json');
-const dashboardData = require('./dashboardData.json');
+const projectData = require('./projectData.json');
 
 const seedDatabase = async () => {
   await sequelize.sync({ force: true });
@@ -37,8 +64,8 @@ const seedDatabase = async () => {
     returning: true,
   });
 
-  for (const project of dashboardData) {
-    await Dashboard.create({
+  for (const project of projectData) {
+    await Project.create({
       ...project,
       user_id: users[Math.floor(Math.random() * users.length)].id,
     });
