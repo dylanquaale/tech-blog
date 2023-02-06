@@ -3,10 +3,6 @@ const router = require('express').Router();
 // const { Post, User, } = require('../models');
 
 // //23-Ins_Auth Controllers where I took this from
-
-
-
-
 router.get('/', async (req, res) => {
 	res.render('homepage');
 	   });
@@ -19,7 +15,7 @@ router.get('/', async (req, res) => {
 	   router.get('/login', (req, res) => {
 		   // If the user is already logged in, redirect the request to another route
 		   if (req.session.loggedIn) {
-			 res.redirect('/profile');
+			 res.redirect('/homepage');
 			 return;
 		   }
 		 

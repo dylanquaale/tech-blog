@@ -14,5 +14,19 @@
     "name": "Nick",
     "email":"nick@gmail.com",
     "password": "Nick1234"
+},
+{
+    "name": "Tom",
+    "email":"tom@gmail.com",
+    "password": "Tom1234"
+},
+{
+    "name": "Dave",
+    "email":"dave@gmail.com",
+    "password": "Dave1234"
+},
+{
+    "name": "Dylan",
+    "email":"dylan@gmail.com",
+    "password": "Dave1234"
 }]
-
