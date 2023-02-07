@@ -61,6 +61,26 @@
     "password": "sam1234"
 },
 {
+    "name": "Stam",
+    "email":"stam@gmail.com",
+    "password": "stam1234"
+},
+{
+    "name": "Stam",
+    "email":"stam@gmail.com",
+    "password": "stam1234"
+},
+{
+    "name": "matt",
+    "email":"matt@gmail.com",
+    "password": "matt1234"
+},
+{
+    "name": "david",
+    "email":"david@gmail.com",
+    "password": "david1234"
+},
+{
     "name": "willy",
     "email":"willy@gmail.com",
     "password": "willy1234"
