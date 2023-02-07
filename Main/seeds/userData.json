@@ -34,13 +34,35 @@
     "name": "ted",
     "email":"ted@gmail.com",
     "password": "ted1234"
-},{
+},
+{
     "name": "fred",
     "email":"fred@gmail.com",
     "password": "fred1234"
 },
 {
+    "name": "teed",
+    "email":"teed@gmail.com",
+    "password": "teed1234"
+},
+{
+    "name": "Sam",
+    "email":"sam@gmail.com",
+    "password": "sam1234"
+},
+{
+    "name": "Tim",
+    "email":"tim@gmail.com",
+    "password": "tim1234"
+},
+{
+    "name": "Sam",
+    "email":"sam@gmail.com",
+    "password": "sam1234"
+},
+{
     "name": "willy",
     "email":"willy@gmail.com",
     "password": "willy1234"
+    
 }]

@@ -1,20 +1,31 @@
-<section class="new-post-section">
-    <button type="submit" class="btn" id="create-new-post">+ Create new post</button>
-</section>
-
-
-{{#if posts.length}}
+{{#if posts.length }}
 <section>
-    <h2>Your Dashboard</h2>
-    <ul class="post-list">
-        {{#each posts as |post|}}
-        <li>
-            {{> post-info post}}
-            <a href="/dashboard/edit/{{post.id}}" class="edit-link">edit post</a>
+    <ol>
+        {{#each posts as |post| }}
+        <li class='row border'>
+            <article class='col-10'>
+                <div id='blog-header' class='row'>
+                    <div id='blog-title' class='col-1'>
+                        <a href='/dashboard/edit/{{post.id}}'>{{post.title}}</a>
+                    </div>
+                    <div  id='blog-date' class="col-1">
+                        <span>{{format_date post.created_at}}</span>
+                    </div>
+                </div>
+            </article>
         </li>
         {{/each}}
-    </ul>
+    </ol>
 </section>
+<div id='post-btn-div' class="row">
+    <div class="col-1">
+        <a href='/dashboard/newpost'><button type='button' id='post-btn'>+ New Post</button></a>
+    </div>
+</div>
+{{else}}
+<div id='post-btn-div' class="row">
+    <div class="col-1">
+        <a href='/dashboard/newpost'><button type='button' id='post-btn'>+ New Post</button></a>
+    </div>
+</div>
 {{/if}}
-
-<script src="/js/dashboard.js"></script>
