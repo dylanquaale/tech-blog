@@ -29,4 +29,18 @@
     "name": "Dylan",
     "email":"dylan@gmail.com",
     "password": "Dave1234"
+},
+{
+    "name": "ted",
+    "email":"ted@gmail.com",
+    "password": "ted1234"
+},{
+    "name": "fred",
+    "email":"fred@gmail.com",
+    "password": "fred1234"
+},
+{
+    "name": "willy",
+    "email":"willy@gmail.com",
+    "password": "willy1234"
 }]
