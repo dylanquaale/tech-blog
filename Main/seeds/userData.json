@@ -1,82 +1,82 @@
 
 
 [{
-    "name": "Peter",
+    "username": "Peter",
     "email":"peter@gmail.com",
     "password": "Peter"
 },
 {
-    "name": "Mike",
+    "username": "Mike",
     "email":"mike@gmail.com",
     "password": "Mike1234"
 },
 {
-    "name": "Nick",
+    "username": "Nick",
     "email":"nick@gmail.com",
     "password": "Nick1234"
 },
 {
-    "name": "Tom",
+    "username": "Tom",
     "email":"tom@gmail.com",
     "password": "Tom1234"
 },
 {
-    "name": "Dave",
+    "username": "Dave",
     "email":"dave@gmail.com",
     "password": "Dave1234"
 },
 {
-    "name": "Dylan",
+    "username": "Dylan",
     "email":"dylan@gmail.com",
     "password": "Dave1234"
 },
 {
-    "name": "ted",
+    "username": "ted",
     "email":"ted@gmail.com",
     "password": "ted1234"
 },
 {
-    "name": "fred",
+    "username": "fred",
     "email":"fred@gmail.com",
     "password": "fred1234"
 },
 {
-    "name": "teed",
+    "username": "teed",
     "email":"teed@gmail.com",
     "password": "teed1234"
 },
 {
-    "name": "Sam",
+    "username": "Sam",
     "email":"sam@gmail.com",
     "password": "sam1234"
 },
 {
-    "name": "Tim",
+    "username": "Tim",
     "email":"tim@gmail.com",
     "password": "tim1234"
 },
 {
-    "name": "Sam",
+    "username": "Sam",
     "email":"sam@gmail.com",
     "password": "sam1234"
 },
 {
-    "name": "Stam",
+    "username": "Stam",
     "email":"stam@gmail.com",
     "password": "stam1234"
 },
 {
-    "name": "matt",
+    "username": "matt",
     "email":"matt@gmail.com",
     "password": "matt1234"
 },
 {
-    "name": "david",
+    "username": "david",
     "email":"david@gmail.com",
     "password": "david1234"
 },
 {
-    "name": "willy",
+    "username": "willy",
     "email":"willy@gmail.com",
     "password": "willy1234"
     
