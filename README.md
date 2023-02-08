@@ -1,7 +1,7 @@
 # tech-blog
 
 11-Ins_partials
-https://github.com/CodyG-2021/14-Model-View-Controller-MVC-Tech-Blog
+
 GIVEN a CMS-style blog site
 
 
