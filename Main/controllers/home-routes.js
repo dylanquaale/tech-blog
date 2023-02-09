@@ -34,9 +34,7 @@ router.get('/post/:id', async (req, res) => {
 					attributes: ['username'],
 				}, {
 					model: Comment,
-					include: [
-						User
-					]
+					include: [User]
 				}
 			],
 		});
@@ -45,7 +43,7 @@ router.get('/post/:id', async (req, res) => {
 			plain: true
 		});
 
-		res.render('blog', {
+		res.render('post', {
 			...post,
 			loggedIn: req.session.loggedIn
 		});
