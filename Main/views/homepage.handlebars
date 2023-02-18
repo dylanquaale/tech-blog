@@ -6,7 +6,7 @@
 			<div class="row  justify-content-center headerRow">
       <div class="col-8">
         <h2>
-          <a class="postTitle text-uppercase" href="/post/{{post.id}}">{{post.title}}</a>
+          <a class="postTitle text-uppercase" href="/post/{{post.id}}">{{post.title}} {{post.content}}</a>
         </h2>
       </div>
 
@@ -16,7 +16,7 @@
 			</div>
     <div class="postDesc">
       <p class="text-center postDescMain">
-        {{post.description}}
+        {{post.content}}
       </p>
     </div>
     </div>

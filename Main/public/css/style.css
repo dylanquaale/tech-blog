@@ -1,7 +1,7 @@
 
 
 :root {
-    --primary: #ccdad1;
+    --primary: white;
     --dark: #201110;
     --border-radius: 0.3rem;
   }
@@ -15,4 +15,52 @@
     color: var(--dark);
     line-height: 1.5;
     font-size: 24px;
+  }
+
+
+  .navTitle {
+    font-weight: 900;
+    font-size: xx-large;
+  }
+  
+  .postBox {
+    margin-top: 2px;
+    border-style: solid;
+  }
+  
+  .postTitle {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .postDesc {
+    border-style: solid;
+    margin-bottom: 5px;
+    width: 35%;
+    border-radius: 40px;
+    padding: 20px;
+    background-color: blue;
+  }
+  
+  .postDescMain {
+    font-weight: 700;
+  }
+  
+  .postDescTwo {
+    font-size: 25px;
+    font-style: italic;
+  }
+  
+  .postCreate {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 12px;
+    padding: 5px;
+    color: whitesmoke;
+  }
+  
+  .postBoxCont {
+    margin-top: 10px;
+    border-style: solid;
+    background-color: whitesmoke;
   }
