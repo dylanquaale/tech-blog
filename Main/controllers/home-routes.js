@@ -97,6 +97,7 @@ router.get("/login", (req, res) => {
 });
 
 router.get("/signup", async (req, res) => {
+ 
   res.render("signup");
 });
 

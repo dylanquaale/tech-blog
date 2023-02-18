@@ -12,6 +12,7 @@ const signupFormHandler = async (event) => {
       method: 'POST',
       body: JSON.stringify({ username, email, password }),
       headers: { 'Content-Type': 'application/json' },
+      loggedIn: true
     });
     if (response.ok) {
       document.location.replace('/');
