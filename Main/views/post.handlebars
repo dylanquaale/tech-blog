@@ -11,10 +11,10 @@
 			</div>
 		</div>
 		</div>	
-{{#if logged_in}}
 
 		<form class="new-comment-form formCont d-flex flex-wrap justify-content-center" data-postid={{id}}>
 			<div class="textAreaCont p-2">
+				<label>Enter Comment</label>
 				<textarea id='comment_text' name="comment-body"
 				placeholder="Enter a comment here..."
 				cols="30"
@@ -24,8 +24,6 @@
 				<button class="button btn btn-success" type="submit">Add Comment</button>
 			</div>
 		</form>
-
-		{{/if}}
 
 		<h2 class="text-center">Comments</h2>
 		{{#each comments as |comment|}}
@@ -40,4 +38,4 @@
 </div>
 
 
-		<script src="/js/comments.js"></script>
+		<script src="/js/comment.js"></script>
