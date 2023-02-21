@@ -1,12 +1,9 @@
-
-
 :root {
     --primary: white;
     --dark: #201110;
     --border-radius: 0.3rem;
   }
   
-
   body {
     background-color: var(--primary);
     margin: 0;
@@ -17,20 +14,14 @@
     font-size: 24px;
   }
 
-
   .navTitle {
     font-weight: 900;
     font-size: xx-large;
   }
   
-  .postBox {
-    margin-top: 2px;
-    border-style: solid;
-  }
-  
   .postTitle {
     text-decoration: none;
-    color: white;
+    color: whitesmoke;
   }
   
   .postDesc {
@@ -48,19 +39,72 @@
   
   .postDescTwo {
     font-size: 25px;
-    font-style: italic;
-  }
-  
-  .postCreate {
-    font-weight: bold;
-    font-style: italic;
-    font-size: 12px;
-    padding: 5px;
     color: whitesmoke;
+    font-style: italic;
+    justify-content: center;
+    background-color: blue;
   }
   
   .postBoxCont {
     margin-top: 10px;
     border-style: solid;
-    background-color: whitesmoke;
+    text-align: center;
+    background-color: blue;
   }
+
+  .card {
+    margin: 0 0 20px 0;
+    border: 2px solid var(--dark);
+    border-radius: var(--border-radius);
+  }
+  
+  .card-header {
+    color: var(--primary);
+    background-color: blue;
+    padding: 1%;
+    border-radius: calc(0.18rem - 1px) calc(0.18rem - 1px) 0 0;
+  }
+  
+  .card-body {
+    padding: 1%;
+  }
+  
+  .login-form{
+    width: 30%;
+  padding: 2%;
+  margin: 5px 0;
+  font-size: 1.2rem;
+  border: 2px solid;
+  border-radius:10px;
+  }
+
+
+  #login-btn {
+    border-radius:5px;
+  }
+
+ .form-label,
+.form-input,
+.form-textarea {
+  display: block;
+}
+
+.username-label {
+  font-size: 1.1rem;
+  margin: 0 0 0 5px;
+}
+
+.form-label {
+  font-size: 1.1rem;
+  margin: 0 0 0 5px;
+}
+
+.form-input {
+  width: 30%;
+  padding: 2%;
+  margin: 5px 0;
+  font-size: 1.2rem;
+  border: 2px solid var(--light-dark);
+  border-radius: var(--border-radius);
+}
+

@@ -6,6 +6,7 @@ const Comment = require('./Comment');
 
 // 11-Ins_Partials models
 // 18-Stu_Session
+// on delete cascade
 
 User.hasMany(Post, {
     foreignKey: 'user_id'
