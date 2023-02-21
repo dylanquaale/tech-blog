@@ -29,12 +29,14 @@
      
   {{#each posts as |post|}}
 {{> post-details}}
-{{/each}}
 
-<div class="col-md-4">
+ <div class="col-md-4">
         <button type="click" class="btn btn-danger" data-id="{{post.id}}">DELETE</button>
       </div>
-      
+</div>
+
+{{/each}}
+
   </div>
   {{/if}}
 </div>
