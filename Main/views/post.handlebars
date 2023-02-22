@@ -7,7 +7,7 @@
 			</div>
 			<p class="text-center postDescTwo">{{content}}</p>
 			<div class="col-4">
-				<p class="postCreate text-right">Created by {{user.username}} on {{format_date post.date_created}}</p>
+				<p class="postCreate text-right">Created by {{user.username}} on {{format_date createdAt}}</p>
 			</div>
 		</div>
 		</div>	
@@ -29,7 +29,7 @@
 		{{#each comments as |comment|}}
 		<div class="commentCont">
 			<p class="text-center commentText">{{comment.comment_text}}</p>
-			<p class="text-center commentOwner"><span>~</span>Created by {{comment.user.username}} on {{format_date date_created}}<span>~</span></p>
+			<p class="text-center commentOwner"><span>~</span>Created by {{comment.user.username}} on {{format_date createdAt}}<span>~</span></p>
 		</div>
 		{{/each}} 
 

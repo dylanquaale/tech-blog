@@ -5,7 +5,7 @@
   }
   
   body {
-    background-color: var(--primary);
+    background: darkolivegreen;
     margin: 0;
     padding: 0;
     font-family: sans-serif;
@@ -18,19 +18,30 @@
     width: 100%;
     height: 100px;
     display: flex;
-    background-color:white;
+    background-color: darkolivegreen;
     vertical-align: middle;
     justify-content: center;
   }
 
-  .nav {
-   float: left;
-   
+  nav {
+   display: flex;
+
+   justify-content: space-between;
+  min-width: 100px;
+  }
+
+  .no-button{
+    border-radius: 10px;
+    height: 30px;
   }
 
   .navTitle {
     font-weight: 900;
     font-size: xx-large;
+  }
+
+  .link {
+    float: left;
   }
   
   .postTitle {
@@ -44,16 +55,6 @@
     margin: 100px;
   }
   
-  .postDesc {
-    border-style: solid;
-    margin-bottom: 5px;
-    width: 35%;
-    border-radius: 40px;
-    padding: 20px;
-    background-color: blue;
- 
-  }
-  
   .postDescMain {
     font-weight: 700;
   }
@@ -63,14 +64,14 @@
     color: whitesmoke;
     font-style: italic;
     justify-content: center;
-    background-color: blue;
+    background-color: darkolivegreen;
   }
   
   .postBoxCont {
     margin-top: 10px;
     border-style: solid;
     text-align: center;
-    background-color: blue;
+    background-color: darkolivegreen;
    
   }
 
@@ -82,7 +83,7 @@
   
   .card-header {
     color: var(--primary);
-    background-color: blue;
+    background-color: darkolivegreen;
     padding: 1%;
   }
   
@@ -141,6 +142,6 @@
   padding: 2%;
   margin: 5px 0;
   border-radius: 4px;
-  background-color: blue;
+  background-color: darkolivegreen;
 }
 
