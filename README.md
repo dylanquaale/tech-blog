@@ -11,6 +11,7 @@ Tech Blog
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
+- [Description](#Description)
 - [License](#license)
 - [Tests](#Tests)
 - [Contributing](#Contributing)
