@@ -1,22 +1,62 @@
 # tech-blog
 
-11-Ins_partials
+MVC 14 Tech Blog Challenge
 
 GIVEN a CMS-style blog site
 
+Tech Blog
 
+## Table of Contents
 
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+- [Tests](#Tests)
+- [Contributing](#Contributing)
+- [Questions](#Questions)
 
+Credits
+11-Ins_partials,
 
+Mini Project,
 
+22-Stu_Ins MVC-Review,
 
+18-Stu_Storage-Session,
 
-WHEN I am idle on the site for more than a set time
-THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
+tutor: Cody Junier,
 
+Ask BCS,
 
-CREATE POST HANDLEBARS
+dilberovicm36,
 
-Look for logout variable that is being declared else where
+bchristensen281,
 
-sql database not working atm
+dgaither
+
+## Description
+
+This Tech Blog is a place where fellow tech communities can come to chat about anything and everything.
+You must signup before interacting with anything on the page including making posts,
+You are able to create posts after signed up or logged in.
+You are able to edit and delte your posts,
+along with leave comments on others posts.
+To leave the site just simply logout.
+Usage
+
+## Contribute
+
+You go to my github up simply unzip and download file. Create a branch to work out of!
+
+## License
+
+MIT
+
+## Tests
+
+All tests are success.
+
+## Questions
+
+Any questions are directed to my email
