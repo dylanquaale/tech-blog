@@ -19,6 +19,10 @@ Tech Blog
 
 ![Screenshot 2023-02-23 at 3 01 15 PM](https://user-images.githubusercontent.com/93456860/221029321-3c8c8fe9-ceb7-4397-82b7-75958738ca1b.png)
 
+![Screenshot 2023-02-23 at 3 03 21 PM](https://user-images.githubusercontent.com/93456860/221029702-2327f8ce-8a39-4094-babe-702548f2d110.png)
+
+![Screenshot 2023-02-23 at 3 04 54 PM](https://user-images.githubusercontent.com/93456860/221030018-6e767e72-31fe-4711-93e7-8456c21171b1.png)
+
 Credits
 11-Ins_partials,
 
