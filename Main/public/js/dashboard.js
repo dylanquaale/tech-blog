@@ -1,6 +1,8 @@
 const newFormHandler = async (event) => {
   event.preventDefault();
 
+// post handler
+
   const title = document.querySelector("#post-title").value.trim();
   console.log(title);
   const content = document.querySelector("#post-desc").value.trim();
@@ -22,6 +24,8 @@ const newFormHandler = async (event) => {
   }
 };
 
+// delete button form handler
+
 const delButtonHandler = async (event) => {
 	if (event.target.hasAttribute('data-id')) {
 		const id = event.target.getAttribute('data-id');
@@ -38,6 +42,7 @@ const delButtonHandler = async (event) => {
 	}
 };
 
+// query selectors
 
 document
   .querySelector(".new-post-form")

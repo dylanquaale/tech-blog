@@ -1,4 +1,4 @@
-
+// how my program knows when the users made the post 
 
   module.exports = {
     format_date: date => {

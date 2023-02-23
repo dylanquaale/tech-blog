@@ -2,7 +2,9 @@ const router = require("express").Router();
 // const sequelize = require('../config/connection')
 const { Post, User, Comment } = require('../models');
 const withAuth = require('../utils/auth');
+//homeroutes
 
+// homepage
 router.get('/', async (req, res) => {
 	try {
 		const postData = await Post.findAll({
@@ -25,6 +27,7 @@ router.get('/', async (req, res) => {
 	}
 });
 
+// post by id 
 router.get('/post/:id', async (req, res) => {
 	console.log(req.params.id)
 	try {
@@ -54,7 +57,7 @@ router.get('/post/:id', async (req, res) => {
 	}
 });
 
-
+// dashboard route
 router.get('/dashboard', withAuth, async (req, res) => {
 	try {
 		const userData = await User.findByPk(req.session.user_id, {
@@ -79,6 +82,7 @@ router.get('/dashboard', withAuth, async (req, res) => {
 	}
 });
 
+// login 
 router.get("/login", (req, res) => {
   if (req.session.loggedIn) {
     res.redirect("/");
@@ -88,6 +92,7 @@ router.get("/login", (req, res) => {
   res.render("login");
 });
 
+// sign up
 router.get("/signup", async (req, res) => {
  
   res.render("signup");
