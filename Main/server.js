@@ -1,3 +1,4 @@
+// required for connection
 const mysql = require("mysql2");
 const path = require("path");
 const express = require("express");
@@ -9,6 +10,7 @@ const helpers = require("./utils/helpers");
 const sequelize = require("./config/connection");
 const SequelizeStore = require("connect-session-sequelize")(session.Store);
 
+// port acces 
 const app = express();
 const PORT = process.env.PORT || 3001;
 
