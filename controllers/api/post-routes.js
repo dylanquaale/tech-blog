@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const { Post, Comment } = require("../../models");
+const { Post } = require("../../models/potato");
 const withAuth = require("../../utils/auth");
 // fix  this
 router.post("/", withAuth, async (req, res) => {
@@ -37,7 +37,5 @@ router.delete("/:id", withAuth, async (req, res) => {
     res.status(500).json(err);
   }
 });
-
-
 
 module.exports = router;
