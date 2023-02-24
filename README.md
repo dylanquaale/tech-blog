@@ -2,7 +2,7 @@
 
 MVC 14 Tech Blog Challenge
 
-GIVEN a CMS-style blog site
+https://safe-ravine-17673.herokuapp.com/
 
 Tech Blog
 
